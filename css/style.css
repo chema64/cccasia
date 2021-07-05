@@ -1,0 +1,62 @@
+h1 {
+	border:1px solid black ;
+}
+
+body {
+	background-color: orange;
+}
+/*.container {
+	border:1px solid black ;
+}
+.row {
+	border:1px solid red ;
+}
+
+.col-6 {
+	border:1px solid red ;
+}
+
+.col-5 {
+	border:1px solid red ;
+	}*/
+
+/*	// X-Small devices (portrait phones, less than 576px)
+	// No media query for `xs` since this is the default in Bootstrap
+
+	// Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) {
+
+		body {
+			background-color: red;
+		}
+
+	}
+
+/*	// Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) {
+
+		body {
+			background-color: blue;
+		}  
+	}
+
+/*	// Large devices (desktops, 992px and up)*/
+	@media (min-width: 992px) {
+		body {
+			background-color: green;
+		} 
+	}
+
+/*	// X-Large devices (large desktops, 1200px and up)*/
+	@media (min-width: 1200px) { 
+		body {
+			background-color: yellow;
+		}
+	}
+
+/*	// XX-Large devices (larger desktops, 1400px and up)*/
+	@media (min-width: 1400px) { 
+		body {
+			background-color: purple;
+		}
+	}

@@ -6,7 +6,7 @@
 
 .jumbotron #intro{
 
-	text-indent: 50px;
+	/*text-indent: 50px;*/
 }
 
 .con-section{
@@ -32,6 +32,16 @@ a {
 	color: black;
 }
 
+.xsPhoneNoPadding {
+	padding-top: 10px;
+/*border:1px solid black ;*/
+}
+
+.xsEmailPadding {
+	padding-top: 10px;
+/*border:1px solid black ;*/
+}
+
 i {
 	color: black;
 	
@@ -44,7 +54,7 @@ h1 {
 
 body {
 	background-color: orange;
-	background-image: url(../img/1263x4459Untitled.png);
+	background-image: url(../img/Opacityx149x1263x4459Untitled.png);
 	background-repeat: no-repeat;
 	/*background-position: center;*/
 	background-size: cover;

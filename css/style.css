@@ -2,6 +2,7 @@
    border: 1px solid black;
    opacity: 0.9;
    padding-top: 3em;
+   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .7);
 }
 
 .jumbotron #intro{
@@ -9,11 +10,14 @@
 	/*text-indent: 50px;*/
 }
 
+
+
 .con-section{
 	background-color: white;
 	border: 1px solid black;
 
-	opacity: 0.7;
+	opacity: 0.8;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .7);
 }
 
 .card {
@@ -21,16 +25,24 @@
 }
 
 #section7 {
-	padding-top: 50px;
+
+	padding-top: 10px;
+}
+
+
+#section7 a  {
+	/*border:1px solid black;*/
+	color: black;
 }
 
 #section6 {
 	padding-top: 50px;
 }
 
-a {
+#section6 a {
 	color: black;
 }
+
 
 .xsPhoneNoPadding {
 	padding-top: 10px;
@@ -47,10 +59,16 @@ i {
 	
 }
 
-
-h1 {
-	/*border:1px solid black ;*/
+h1, h2, h3, h4 {
+	text-shadow: 2px 2px 2px black;
 }
+
+ p {
+	/*border:1px solid black ;*/
+	text-shadow: 1px 1px 1px black;
+}
+
+
 
 body {
 	background-color: orange;
@@ -60,6 +78,17 @@ body {
 	background-size: cover;
 	/*background-attachment: fixed;*/
 }
+
+.carousel-inner {
+	border:1px solid black ;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .7);
+	
+}
+
+.card {
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .7);
+}
+
 /*.container {
 	border:1px solid black ;
 }

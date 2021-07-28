@@ -32,7 +32,7 @@
 
 #section7 a  {
 	/*border:1px solid black;*/
-	color: black;
+	/*color: black;*/
 }
 
 #section6 {
@@ -40,7 +40,7 @@
 }
 
 #section6 a {
-	color: black;
+	/*color: black;*/
 }
 
 
@@ -79,8 +79,8 @@ body {
 	/*background-attachment: fixed;*/
 }
 
-.carousel-inner {
-	border:1px solid black ;
+.carousel .carousel-inner{
+	border:1px solid black;
 	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .7);
 	
 }
